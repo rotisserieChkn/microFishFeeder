@@ -1,0 +1,120 @@
+(footprint "nanofit_1053131102"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4.2418 1.3136 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d0447379-b7ae-44d9-b097-92dee54b0df4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 7.5 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "301bc156-6cbd-49ed-85d1-9d42741d00f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6175bf23-0811-4510-8db8-f47fe0cacf9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8480f480-9164-4bf5-b3e3-fd6ecaadf324")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.2 0)
+		(end 3.2 12)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9d0dc2bb-b23e-4569-958b-32f646bbbc7a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.5 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "197ab6ef-6dc7-47cf-9784-8acd1015dcae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -1.25 7.18)
+		(size 2 2)
+		(drill 1.75)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "7065a97d-43f3-419b-b30f-acb763beae78")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.25 7.18)
+		(size 2 2)
+		(drill 1.75)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "6f44dbff-5293-439a-973a-7411a632c373")
+	)
+	(pad "1" thru_hole circle
+		(at 1.25 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5cb03dd9-aefe-48d8-a681-cbfb95ce458b")
+	)
+	(pad "2" thru_hole circle
+		(at -1.25 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0bf1ecb5-7b0a-4e14-95f7-3ab09bb79488")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/nicho/My Drive/Projects/Projects/PCB projects/MyKicadLibrary/3dBodies/1053131102.stp"
+		(offset
+			(xyz 0 -6.1 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

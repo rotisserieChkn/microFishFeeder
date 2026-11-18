@@ -1,0 +1,107 @@
+(footprint "TL3305AF260QG"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.3302 -3.2004 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8dd8c35a-c7ab-491c-a38a-5b464635b3dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TL3305AF260QG"
+		(at 0 2.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "88f88c9a-84be-4eda-9608-4fe76c4ae34b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4568f7e7-1387-4a18-bdf1-adcd1c7bced7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86e41439-1076-4252-b012-11d22f2752f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -4.5 -2.6)
+		(end 4.5 2.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a7332fa8-41c8-40b4-8ee4-3ed6bbedad6c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.445 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9cb10335-b1cd-4d7d-982e-526e57d333b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.6 1.5)
+		(size 1.6 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "cc3ab446-2e3b-4926-a918-b8da9ab05107")
+	)
+	(pad "2" smd rect
+		(at 3.6 1.5)
+		(size 1.6 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "e45091bf-1e7e-4428-97f5-be270b21ee4c")
+	)
+	(pad "3" smd rect
+		(at -3.6 -1.5)
+		(size 1.6 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "49678e7b-3722-4054-9a02-fd92d9c18042")
+	)
+	(pad "4" smd rect
+		(at 3.6 -1.5)
+		(size 1.6 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "93588e75-e1c3-4431-afa4-7bb49ee54777")
+	)
+	(embedded_fonts no)
+)
